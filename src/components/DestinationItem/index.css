@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.destination-item-image {
+  width: 240px;
+}
+@media screen and (min-width: 768px) {
+  .destination-item-image {
+    width: 260px;
+  }
+}
+.destination-item-para {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .destination-item-para {
+    font-size: 18px;
+  }
+}
+.destination-li {
+  margin-right: 30px;
+}

@@ -1,0 +1,62 @@
+/* Write your CSS here */
+.search-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.search-heading {
+  color: #0d172a;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .search-heading {
+    font-size: 46px;
+  }
+}
+.search-input {
+  background-color: #f1f5f9;
+  border-style: none;
+  height: 40px;
+  width: 200px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  margin-bottom: 30px;
+  padding-left: 10px;
+  color: #252627;
+  font-size: 14px;
+  margin-left: 0px;
+  font-weight: 500;
+}
+.serch-icon {
+  position: absolute;
+  background-color: #f1f5f9;
+  height: 40px;
+  width: 40px;
+  padding: 10px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+.search-input-list {
+  list-style-type: none;
+  max-width: 650px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 768px) {
+  .search-input-list {
+    max-width: 650px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+}
